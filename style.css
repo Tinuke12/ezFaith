@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: rgb(45, 132, 132);
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+nav>a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+header{
+max-width: 1200px;
+margin: auto;
+}
+
+.IMG{
+  display: flex ;
+  justify-content: space-between;
+  align-items: center;
+  height: 15vh;
+}
+
+.phone{
+  display: flex;
+  gap: 10px;
+}
+
+.textblock {
+  line-height: 2rem;
+}
+
+.textblock > p{
+  font-size: 19px;
+}
+
+.textblock > h4{
+  color:rgb(225, 126, 4) ;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.connect{
+  line-height: 2rem;
+}
+
+.connect > p{
+  text-transform: capitalize;
+}
+
+.connect > span{
+  display: flex;
+  justify-content: end;
+}
+
+
+
+.img{
+  height: 20vh;
+  background-image: url(./image/man.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.contactus{
+  text-align: center;
+}
+
+  .contactus >h2{
+  color: rgb(225, 126, 4);
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+
+.genLayout {
+  max-width: 1020px;
+  margin: auto;
+
+
+}
+.info-section {
+  background-color: #ebeaf0;
+  padding:4rem 0rem;
+
+}
+
+.info-text {
+  text-align: left;
+  color: #555;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+
+
+.cards-section {
+  background-color: #ebeaf0;
+  
+}
+
+.contact-cards {
+  display: flex;
+  gap: 50px;
+  background-color: #ebeaf0;
+
+
+ 
+}
+
+.card {
+  background-color: #fff;
+  padding: 2rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: none;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 650px;
+  height: 270px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.icon-circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #f8f8f8;
+  border: 2px solid orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1rem;
+}
+
+.icon {
+  line-height: 2rem;
+  font-size: 1.5rem;
+  color: orange;
+}
+
+.card h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.card p {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.inputwrapper{
+  background-color: #f8f8f8;
+
+}
+
+.inputcont >h2{ 
+  font-size: 2rem;
+  color: #f09e29;
+  padding-top: 6rem;
+
+}
+
+.formBox {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+padding-top: 2rem;
+
+}
+.frm1 {
+  display: flex; 
+  flex-direction: row;
+  gap: 20px;
+
+}
+.frm1 > input {
+  height: 50px;
+  width: 500px;
+  font-size: 15px;
+  text-transform: capitalize;
+  border: 1px solid #f09e29;
+  padding-left: 1rem;
+  font-weight: 600;
+
+
+}
+.frm2 > textarea {
+  height: 150px;
+  width: 1020px;
+text-transform: capitalize;
+font-size: 15px;
+border: 1px solid #f09e29;
+padding-top: 1rem;
+font-weight: 600;
+border-right: ;
+
+
+}
+
+.to {
+  display: flex;
+  justify-content: end;
+  gap: 1rem;
+
+}
+
+.to > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+letter-spacing: 0.1rem;
+}
+
+.to >input {
+
+  border: 1px solid #f09e29;
+  height: 50px;
+  width: 45px;
+  margin-left: -1rem;
+
+}
+.to > button{
+
+  border: 1px solid #f09e29;
+  background-color: #f09e29;
+  padding: 1rem 4rem;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 600;
+  
+
+}
+
+
+
+
+  
+
+
